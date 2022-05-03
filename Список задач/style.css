@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Agu Script';
+    src: url('Agu Script.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Agu Script';
+    background-color: #FFC478;
+}
+.container{
+    width: 100%;
+}
+#task_list{
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #75CFB8;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 72px -61px 33px 52px rgba(34, 60, 80, 0.39);
+}
+#title{
+    font-size: 2rem;
+    text-align: center;
+}
+#input{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+#input i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+#add_task{
+    transform: scaleX(-1);
+}
+#clear_tasks:hover{
+    transform: scale(1.2) rotate(10deg);
+    color: #9FB4FF;
+}
+/* https://colorhunt.co/palette/4d77ff56bbf15ee6ebf2fa5a */
+
+#user_input{
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 35px;
+    padding-left: 20px;
+    border-bottom: 5px solid #000;
+    background-color: transparent;
+    color: rgb(0, 0, 74);
+    font-family: inherit;
+}
